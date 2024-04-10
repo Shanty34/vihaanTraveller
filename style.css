@@ -80,4 +80,35 @@ body{
     top: 8px;
     width: 100px;
 }
-
+section{
+  height: 100vh;
+}
+.heading {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 90px; /* Adjust left for desired positioning */
+  transform: translateY(-50%); /* Centers the element vertically */
+  font-size : 7rem;
+  width: 50vw;
+}
+.desciption{
+  text-align: left;
+  position: absolute;
+  top: 70%;
+  left: 90px; /* Adjust left for desired positioning */
+  transform: translateY(-50%); /* Centers the element vertically */
+  width: 40vw;
+}
+.img1{
+  
+   position:absolute;
+   right: 50px;
+  top: 10;
+}
+#element1{
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+}
