@@ -1,0 +1,42 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Home</title>
+    <link rel="stylesheet" href= {% static "styles.css" %} />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body class="backgroundimg">
+    <section>
+      <img class="toplogo" src="travello.svg" alt="Logo" />
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#">Dashboard</a></li>
+          <li class="center"><a href="#">Portfolio</a></li>
+          <li class="upward"><a href="#">Services</a></li>
+          <li class="forward"><a href="#">Feedback</a></li>
+        </ul>
+      </nav>
+      <div class="container">
+        <h1 class="heading">TripMate!</h1>
+        <br />
+        <h3 class="heading-sm">Your smart travel partner</h3>
+        <p class="desciption">
+          Get the best-value vacations handpicked just for you. Identify and
+          enjoy yourself with others who have similar travel personalities.
+        </p>
+      </div>
+      <div>
+        <img class="img1" src= {% static "Girl.png" %} alt="Girl traveling"
+        width="500" height="500" />
+      </div>
+      <img id="element1" src={% static "Decore.png" %} height="500" width="600"
+      />
+    </section>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

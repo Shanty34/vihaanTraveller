@@ -1,0 +1,63 @@
+body {
+  margin-bottom: 0;
+}
+.cards {
+  display: flex;
+}
+.date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dates-text,
+.budget {
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  border-radius: 5px;
+}
+
+.box {
+  border-bottom: 4px solid rgb(255, 23, 23);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  width: 50px;
+  height: 50px;
+  margin: 0.3rem;
+  box-shadow: 5px 5px 5px black;
+}
+
+.budgetinput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.budgetinput input {
+  /* padding: 0.5rem 0; */
+  width: 100px;
+  margin: 0.2rem;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--bs-heading-color);
+}
