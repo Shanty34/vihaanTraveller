@@ -1,0 +1,251 @@
+/* Google Fonts Import Link */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  /* height: 100%; */
+  /* display: flex; */
+  justify-content: center;
+  /* background-image: linear-gradient(
+    to top,
+    rgba(255, 0, 0, 0),
+    rgb(152, 237, 252)
+  ); */
+}
+section{
+  height: 80vh;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding: 23px 500px;
+  border-radius: 12px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+.nav-links li {
+  list-style: none;
+  margin: 0 12px;
+}
+.nav-links li a {
+  position: relative;
+  color: #333;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 6px 0;
+  text-decoration: none;
+}
+.nav-links li a:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  width: 0%;
+  background: #34efdf;
+  border-radius: 12px;
+  transition: all 0.4s ease;
+}
+.nav-links li a:hover:before {
+  width: 100%;
+}
+.nav-links li.center a:before {
+  left: 50%;
+  transform: translateX(-50%);
+}
+.nav-links li.upward a:before {
+  width: 100%;
+  bottom: -5px;
+  opacity: 0;
+}
+.nav-links li.upward a:hover:before {
+  bottom: 0px;
+  opacity: 1;
+}
+.nav-links li.forward a:before {
+  width: 100%;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s ease;
+}
+.nav-links li.forward a:hover:before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+.toplogo {
+  background-color: transparent;
+  height: 120px;
+  left: 7px;
+  position: absolute;
+  top: -7px;
+  width: 235px;
+  margin-top: -24px;
+}
+section {
+  height: 100vh;
+}
+.heading {
+  text-align: left;
+  position: absolute;
+  top: 35%;
+  left: 90px; /* Adjust left for desired positioning */
+  transform: translateY(-50%); /* Centers the element vertically */
+  font-size: 100px;
+  width: 50vw;
+  color: #181E4B;
+}
+.heading-sm {
+  text-align: left;
+  position: absolute;
+  top: 45%;
+  left: 10%; /* Adjust left for desired positioning */
+  /* transform: translateY(-50%); Centers the element vertically */
+  font-size: 3rem;
+  /* width: 50vw; */
+  color: #181E4B;
+}
+.desciption {
+  text-align: left;
+  position: absolute;
+  top: 65%;
+  left: 100px; /* Adjust left for desired positioning */
+  transform: translateY(-50%); /* Centers the element vertically */
+  width: 30vw;
+  font-size: 20px;
+  color: #5E6282;
+  font-weight: 500;
+}
+.img1 {
+  position: absolute;
+  right: 200px;
+  top: 150px;
+}
+#element1 {
+  position: absolute;
+  top: 10px;
+  right: 0px;
+  z-index: -1;
+}
+#sections-h1{
+  position: relative;
+  width: 10vw;
+  left: 45vw;
+}
+.section-heading{
+  position: relative;
+  font-size: 40px;
+  left: 25vw;
+  color: #14183E;
+  width: 50vw;
+}
+#flex-cards{
+  display: flex;
+  position: relative;
+  /* left: 0; */
+  justify-content: space-around;
+  top:10vh;
+}
+#destinations{
+  height: 80vh;
+}
+#heading-3{
+  position: relative;
+  left: 40vw;
+  width: 20vw;
+  text-align: center;
+  color: #181E4B;
+}
+.cards {
+  display: flex;
+  justify-content: space-around;
+}
+.date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dates-text,
+.budget {
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem;
+  border-radius: 5px;
+}
+
+.box {
+  border-bottom: 4px solid rgb(255, 23, 23);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  width: 50px;
+  height: 50px;
+  margin: 0.3rem;
+  box-shadow: 5px 5px 5px black;
+}
+
+.budgetinput {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.budgetinput input {
+  /* padding: 0.5rem 0; */
+  width: 100px;
+  margin: 0.2rem;
+}
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--bs-heading-color);
+}
+hr{
+  color: #636060;
+}
+footer{
+  height: 60vh;
+}
+.footer-cl{
+  display: flex;
+  justify-content: space-around;
+  width: 70%;
+}
+.footer-cl img{
+  position: relative;
+   /* left: 20vw; */
+}
+.footer-cl h4{
+   width: 20vw;
+   position: relative;
+   /* left: 20vw; */
+}
+#div2{
+  position: relative;
+  top: 10vh;
+}
+#div3{
+  position: relative;
+  top: 10vh;
+}
