@@ -1,0 +1,31 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href={% static "location.css" %} />
+  </head>
+  <body class="backgroundimg">
+    <section>
+      <img class="toplogo" src={% static "logo.png" %} alt="Logo" />
+      <nav>
+        <ul class="nav-links">
+          Itinerary - Troops
+        </ul>
+      </nav>
+    </section>
+    <img height="100px" width="200px" src={% static "navigation.png" %} alt="">
+    <img height="100px" src={% static "current.png" %} alt=""/> <img
+    height="100px"src={% static "done.png" %} alt="">
+    <div>A photo here</div>
+
+    <h1>Enter the number of people wants to travel</h1>
+    <input type="text" name="" id="" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

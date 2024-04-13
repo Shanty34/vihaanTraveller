@@ -1,0 +1,86 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href={% static "location.css" %} />
+  </head>
+  <body class="backgroundimg">
+    <section>
+      <img class="toplogo" src={% static "logo.png" %} alt="Logo" />
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#">Dashboard</a></li>
+          <li class="center"><a href="#">Portfolio</a></li>
+          <li class="upward"><a href="#">Services</a></li>
+          <li class="forward"><a href="#">Feedback</a></li>
+        </ul>
+      </nav>
+
+      <div class="week">
+        <div class="top">
+          <div class="top text">
+            <h3>MAJNU KA TILA</h3>
+            <p>
+              Majnu-ka-tilla is a colony in Delhi, India that was established
+              around 1950. Majnu-ka-tilla<br />
+              is officially called New Aruna Nagar Colony, Chungtown, and
+              Samyeling. It is part of North Delhi<br />
+              district and is located at the bank of the Yamuna River near ISBT
+              Kashmiri Gate.
+            </p>
+          </div>
+          <img
+            class="location-image"
+            src="https://res.cloudinary.com/purnesh/image/upload/w_1000,f_auto/majnu-ka-tila11556524557418.jpg"
+          />
+        </div>
+      </div>
+      <br />
+      <div class="week">
+        <h3>ROUTE INFORMATION</h3>
+        <h5 class="subh">LANDMARKS</h5>
+        <p>
+          <span class="bold">Nearest Bus Stand :</span> Pwd Office / Aruna Nagar
+          Ring Road<br />
+          <span class="bold">Nearest Metro Station :</span>  Vidhan Sabha Metro
+          Station<br />
+          <span class="bold"> Nearest Railway Station :</span> New Delhi<br />
+        </p>
+
+        <br />
+
+        <h5 class="subh">TICKETS AND TIMINGS</h5>
+        <p>
+          Best timings start from 11am and is open till 12am<br />
+          Ticket prices are not applicable over here
+        </p>
+        <br />
+
+        <h5 class="subh">TIPS FROM LOCALS</h5>
+        <p>
+          Book cafes in advance to avoid waiting<br />
+          Parking not available<br />
+          E rikshaws may ask for higher fair . Do not pay more than 20 rs<br />
+        </p>
+        <br />
+
+        <h5 class="subh">LOCAL PLACES TO VISIT NEARBY</h5>
+        <p>
+          Kalsang Cafe: house no. 18,19<br />
+          Sarang cafe : house no 192<br />
+          Nor yak Cafe : house no. 31<br />
+          Sinature Bridge<br />
+        </p>
+        <br />
+      </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

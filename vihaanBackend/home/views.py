@@ -9,3 +9,11 @@ def home(request):
 
 def second(request):
     return render(request, "home/second.html")
+
+
+def destinationDetails(request, dest):
+    return render(request, f"home/{dest}.html")
+
+
+def itinerary(request, page):
+    return render(request, f"home/itinerary_{page}.html")
