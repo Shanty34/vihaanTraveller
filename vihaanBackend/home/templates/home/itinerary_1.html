@@ -6,19 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href={% static "location.css" %} />
+    <link rel="stylesheet" href="itinerary.css" />
   </head>
   <body class="backgroundimg">
     <section>
-      <img class="toplogo" src={% static "logo.png" %} alt="Logo" />
       <nav>
         <ul class="nav-links">
-          Itinerary - Troops
+          <li>
+            <img class="toplogo" src={% static "logo.png" %} alt="Logo"
+            height="100"/>
+          </li>
+          <li>Itinerary-Troops</li>
         </ul>
       </nav>
     </section>
-    <img height="100px" width="200px" src={% static "navigation.png" %} alt="">
-    <img height="100px" src={% static "current.png" %} alt=""/> <img
-    height="100px"src={% static "done.png" %} alt="">
+    <img src={% static "navigation.png" %} alt="">
     <div>A photo here</div>
 
     <h1>Enter the number of people wants to travel</h1>
